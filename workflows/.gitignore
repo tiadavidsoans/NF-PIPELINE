@@ -1,0 +1,42 @@
+# Nextflow temporary files
+work/
+.nextflow/
+.nextflow.log
+.nextflow.*.log
+
+# Results and outputs
+results/
+alignment_metrics/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Conda environments
+.conda/
+bioinfo/
+
+# Reference genomes
+reference/
+
+# Input data
+data/
+
+# Pipeline reports
+*.html
+*.txt
+*.png
+*.dag
+
+# Executables
+nextflow
+
+# Logs
+*.log
