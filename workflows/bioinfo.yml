@@ -1,0 +1,14 @@
+name: bioinfo
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - nextflow>=21.04.0
+  - fastqc=0.11.9
+  - cutadapt=4.4
+  - bwa=0.7.18
+  - samtools=1.17
+  - bcftools=1.17
+  - multiqc=1.14
+  - openssl>=3.0.0
